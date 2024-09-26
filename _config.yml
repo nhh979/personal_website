@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Hieu Nguyen"
-  avatar : "/assets/images/Bio-photo/bio-photo.jpg"
+  avatar : "/assets/images/Bio-photo/bio-photo.jpeg"
   bio    : "Data Science & Statistics"
   links:
     # - label: "Website"
