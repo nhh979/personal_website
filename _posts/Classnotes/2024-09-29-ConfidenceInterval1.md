@@ -14,7 +14,7 @@ In real life, it’s almost impossible to measure a true value such as the avera
 ## Definition
 Let’s introduce some terms necessary for better understanding. 
 
-Let \\[\theta\\] denote the population parameter (i.e., mean, standard deviation). $$\hat{\theta}$$ is then the estimator used to estimate the population parameters.
+Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation). $$\hat{\theta}$$ is then the estimator used to estimate the population parameters.
 
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
@@ -23,15 +23,15 @@ It’s important to note that confidence intervals commonly rely on the assumpti
 </div>
 
 
-If the given population has a normal distribution, we can estimate $\theta$, using the z-score formula as follows:
+If the given population has a normal distribution, we can estimate $$\theta$$, using the z-score formula as follows:
 
-$$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \plusmn z\times\sigma_{\hat{\theta}} (for two tails) $${: .notice}
+$$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
 ![img](/assets/classnote_photos/CI-photo2.png)
 
-That means to construct the interval we need to find the z-value and the standard error $\sigma_{\hat{\theta}}$. FYI, their product is called the *margin of error*.
+That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
 
-Find z-value: With the given probability *p* of the interval, we calculate the area or the probability on the two tails by $\frac{1-p}{2}$ based on the fact that the normal curve is symmetric and the total probability under the curve is equal to 1. Using the Z table, we can find the z value corresponding to the area on the tail. For example, for a 95% confidence interval, we want a z-value that cuts off an area of 0.025 on each tail.
+Find z-value: With the given probability *p* of the interval, we calculate the area or the probability on the two tails by $$\frac{1-p}{2}$$ based on the fact that the normal curve is symmetric and the total probability under the curve is equal to 1. Using the Z table, we can find the z value corresponding to the area on the tail. For example, for a 95% confidence interval, we want a z-value that cuts off an area of 0.025 on each tail.
 
 By the way, *p* is usually called confidence level denoted by *c* in the context of confidence interval.
 
@@ -41,10 +41,10 @@ The standard error is the key ingredient in constructing confidence intervals. I
 
 |Parameter|Standard Error|
 |-----|-----|
-|Population mean| $\frac{\sigma}{\sqrt{n}}$ |
-|Population proportion| $\sqrt{\frac{p(1-p)}{n}}$ |
-|Difference between two population means| $\sqrt{\frac{\sigma_{1}^2}{n_{1}} + \frac{\sigma_{2}^2}{n_{2}}} $ |
-|Difference between two proportion means| $\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$ |
+|Population mean| $$\frac{\sigma}{\sqrt{n}}$$ |
+|Population proportion| $$\sqrt{\frac{p(1-p)}{n}}$$ |
+|Difference between two population means| $$\sqrt{\frac{\sigma_{1}^2}{n_{1}} + \frac{\sigma_{2}^2}{n_{2}}} $$ |
+|Difference between two proportion means| $$\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$$ |
 {: .notice--info}
 
 Knowing how to find z-value and compute the standard error, we now can construct a confidence interval for the desired parameter.
