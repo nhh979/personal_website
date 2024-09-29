@@ -18,20 +18,17 @@ Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation).
 
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
-<div class="container">
-  <img src="https://raw.githubusercontent.com/nhh979/personal_website/refs/heads/master/assets/images/classnote_photos/CI-photo1.png" alt="img" width="400" height="350">
-</div>
-
-
 If the given population has a normal distribution, we can estimate $$\theta$$, using the z-score formula as follows:
 
 $$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
-![img](/assets/images/classnote_photos/CI-photo2.png)
+<div class="container">
+  <img src="https://raw.githubusercontent.com/nhh979/personal_website/refs/heads/master/assets/images/classnote_photos/CI-photo.png" alt="img" width="400" height="350">
+</div>
 
 That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
 
-Find z-value: With the given probability *p* of the interval, we calculate the area or the probability on the two tails by $$\frac{1-p}{2}$$ based on the fact that the normal curve is symmetric and the total probability under the curve is equal to 1. Using the Z table, we can find the z value corresponding to the area on the tail. For example, for a 95% confidence interval, we want a z-value that cuts off an area of 0.025 on each tail.
+Find z-value: With the given probability *p* of the interval, we calculate the area or the probability in the two tails by $$\frac{1-p}{2}$$ based on the fact that the normal curve is symmetric and the total probability under the curve is equal to 1. Using the Z table, we can find the z value corresponding to the area on the tail. For example, for a 95% confidence interval, we want a z-value that cuts off an area of 0.025 in each tail.
 
 By the way, *p* is usually called confidence level denoted by *c* in the context of confidence interval.
 
