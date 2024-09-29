@@ -1,5 +1,5 @@
 ---
-title: 'Confidence Interval 1'
+title: 'Confidence Interval'
 date: 2024-09-29
 categories: blog
 tags:
@@ -18,7 +18,10 @@ Let $\theta$ denote the population parameter (i.e., mean, standard deviation). $
 
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
-![img]('/assets/classnote_photos/CI-photo1.png')
+<div class="container">
+  <img src="/assets/classnote_photos/CI-photo1.png" alt="img" width="400" height="350">
+</div>
+
 
 If the given population has a normal distribution, we can estimate $\theta$, using the z-score formula as follows:
 
