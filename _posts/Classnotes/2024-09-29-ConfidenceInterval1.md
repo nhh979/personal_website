@@ -18,11 +18,11 @@ Let $\theta$ denote the population parameter (i.e., mean, standard deviation). $
 
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
-![img](/assets/classnote_photos/CI-photo1.png)
+![img]('/assets/classnote_photos/CI-photo1.png')
 
 If the given population has a normal distribution, we can estimate $\theta$, using the z-score formula as follows:
 
-$z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \plusmn z\times\sigma_{\hat{\theta}}$ (for two tails) {: .notice}
+$$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \plusmn z\times\sigma_{\hat{\theta}} (for two tails) $${: .notice}
 
 ![img](/assets/classnote_photos/CI-photo2.png)
 
@@ -32,7 +32,7 @@ Find z-value: With the given probability *p* of the interval, we calculate the a
 
 By the way, *p* is usually called confidence level denoted by *c* in the context of confidence interval.
 
-Another thing is the standard error which is the standard deviation of the sampling distribution. For example, if we take a random sample and calculate its mean and repeat this process multiple times, the standard deviation of those sample means is the standard error. It indicates how much a sample mean is expected to vary from the true mean.
+Another thing is the standard error which represents the standard deviation of the sampling distribution. For instance, if we take a random sample and calculate its mean and repeat this process multiple times, the standard deviation of those sample means is the standard error. It indicates how much a sample mean is expected to vary from the true mean.
 
 The standard error is the key ingredient in constructing confidence intervals. Its formula varies depending on the type of population parameter being estimated. Here are some common scenarios: 
 
