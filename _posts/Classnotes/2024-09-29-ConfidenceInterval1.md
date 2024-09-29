@@ -14,7 +14,7 @@ In real life, it’s almost impossible to measure a true value such as the avera
 ## Definition
 Let’s introduce some terms necessary for better understanding. 
 
-Let $\theta$ denote the population parameter (i.e., mean, standard deviation). $\hat{\theta}$ is then the estimator used to estimate the population parameters.
+Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation). $$\hat{\theta}$$ is then the estimator used to estimate the population parameters.
 
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
