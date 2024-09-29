@@ -19,7 +19,7 @@ Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation).
 It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
 <div class="container">
-  <img src="https://github.com/nhh979/personal_website/blob/master/assets/classnote_photos/CI-photo1.png" alt="img" width="400" height="350">
+  <img src="https://github.com/nhh979/personal_website/assets/classnote_photos/CI-photo1.png" alt="img" width="400" height="350">
 </div>
 
 
@@ -27,7 +27,7 @@ If the given population has a normal distribution, we can estimate $$\theta$$, u
 
 $$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
-![img](/assets/classnote_photos/CI-photo2.png)
+![img]("./assets/classnote_photos/CI-photo2.png")
 
 That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
 
@@ -44,7 +44,7 @@ The standard error is the key ingredient in constructing confidence intervals. I
 |Population mean| $$\frac{\sigma}{\sqrt{n}}$$ |
 |Population proportion| $$\sqrt{\frac{p(1-p)}{n}}$$ |
 |Difference between two population means| $$\sqrt{\frac{\sigma_{1}^2}{n_{1}} + \frac{\sigma_{2}^2}{n_{2}}} $$ |
-|Difference between two proportion means| $$\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$$ |
+|Difference between two population proportions| $$\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$$ |
 {: .notice--info}
 
 Knowing how to find z-value and compute the standard error, we now can construct a confidence interval for the desired parameter.
