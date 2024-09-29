@@ -27,7 +27,7 @@ If the given population has a normal distribution, we can estimate $$\theta$$, u
 
 $$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
-![img]("./assets/classnote_photos/CI-photo2.png")
+![img]("/blog/assets/classnote_photos/CI-photo2.png")
 
 That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
 
