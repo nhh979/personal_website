@@ -22,11 +22,13 @@ If the given population has a normal distribution, we can estimate $$\theta$$, u
 
 $$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
+
+That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
+
 <div class="container">
   <img src="https://raw.githubusercontent.com/nhh979/personal_website/refs/heads/master/assets/images/classnote_photos/CI-photo.png" alt="img" width="400" height="350">
 </div>
-
-That means to construct the interval we need to find the z-value and the standard error $$\sigma_{\hat{\theta}}$$. FYI, their product is called the *margin of error*.
+  
 
 Find z-value: With the given probability *p* of the interval, we calculate the area or the probability in the two tails by $$\frac{1-p}{2}$$ based on the fact that the normal curve is symmetric and the total probability under the curve is equal to 1. Using the Z table, we can find the z value corresponding to the area on the tail. For example, for a 95% confidence interval, we want a z-value that cuts off an area of 0.025 in each tail.
 
