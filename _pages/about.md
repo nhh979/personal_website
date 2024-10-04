@@ -7,4 +7,4 @@ Hi there, I'm Hieu Nguyen, a senior at the University of South Florida majoring 
 
 I consider myself a lifelong learner with curiosity. I've have completed various online courses, from Statistics to Machine Learning, on platforms like Coursera, DataCamp, Udemy, etc.
 
-This blog site is a collection my learning notes from my readings, school courses, personal project, etc. It's a okace where I can practice my writing skill, stay motivated and keep up with my studies. 
+This blog site is a collection my learning notes from my readings, school courses, personal project, etc. It's a place where I can practice my writing skill, stay motivated and keep up with my studies. 
