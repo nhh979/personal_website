@@ -1,5 +1,5 @@
 ---
-title: 'Confidence Interval'
+title: 'Confidence Interval for Large Samples'
 date: 2024-09-29
 categories: blog
 tags:
@@ -16,7 +16,7 @@ Let’s introduce some terms necessary for better understanding.
 
 Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation). $$\hat{\theta}$$ is then the estimator used to estimate the population parameters.
 
-It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though). This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
+It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though) or the sample size is sufficiently large. This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
 
 If the given population has a normal distribution, we can estimate $$\theta$$, using the z-score formula as follows:
 
@@ -53,5 +53,8 @@ There are some common misunderstandings about how to correctly interpret the res
 
 The correct interpretation is: “The true parameter is in the confidence interval with 95% confidence”. In other words, when we were to construct 100 confidence intervals from different samples of the same population, approximately 95 of those intervals will contain the true population parameter.
 
+## Coding Example
+For those who have some basic experience in Python, 
+
 ## Summary
-In this post, we’ve explored how to construct confidence intervals for a population parameter. However, this only works best under when the population has a normal distribution, or the sample size is sufficiently large. For smaller sample sizes, we need to approach a different method, which I’ll discuss in future post.
+In this post, we’ve explored how to construct confidence intervals for a population parameter. However, this only works best when the population has a normal distribution, or the sample size is sufficiently large. For smaller sample sizes, we need to approach a different method, which I’ll discuss in future post.
