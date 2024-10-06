@@ -16,9 +16,9 @@ Let’s introduce some terms necessary for better understanding.
 
 Let $$\theta$$ denote the population parameter (i.e., mean, standard deviation). $$\hat{\theta}$$ is then the estimator used to estimate the population parameters.
 
-It’s important to note that confidence intervals commonly rely on the assumption that the population follows a normal distribution (this is not always the case though) or the sample size is sufficiently large. This assumption allows us to use *z-score* (or *t-score* and *chi-square score* in some other cases) to obtain the desire range of the estimator with a specified probability after normalizing the estimator.
+If the sample size is sufficiently large, the Central Limit Theorem states that the sampling distribution of the sample mean will be normally distributed. This allows us to use *z-score*  to compute the desire range of the estimator with a specified probability for parameters like population mean ($$\mu$$), population proportion $$\sigma$$, difference between means ($$\mu_1 - \mu_2$$), and difference between proportions ($$p_1 - p_2$$).
 
-If the given population has a normal distribution, we can estimate $$\theta$$, using the z-score formula as follows:
+So, $$\hat{\theta}$$ is the estimator following a normal distribution with mean $$\theta$$ and standard error $$\sigma_{\hat{\theta}}$$. We can estimate $$\theta$$, using the z-score formula as follows:
 
 $$ z = \frac{\hat{\theta} - \theta}{\sigma_{\hat{\theta}}} \rightarrow \theta = \hat{\theta} \pm z\times\sigma_{\hat{\theta}} ~(for~two~tails) $${: .notice}
 
@@ -36,14 +36,15 @@ By the way, *p* is usually called confidence level denoted by *c* in the context
 
 The standard error represents the standard deviation of the sampling distribution. For instance, if we take a random sample and calculate its mean and repeat this process multiple times, the standard deviation of those sample means is the standard error. It indicates how much a sample mean is expected to vary from the true mean.
 
+
 The standard error is the key ingredient in constructing confidence intervals. Its formula varies depending on the type of population parameter being estimated. Here are some common scenarios: 
 
 |Parameter|Standard Error|
 |-----|-----|
-|Population mean| $$\frac{\sigma}{\sqrt{n}}$$ |
-|Population proportion| $$\sqrt{\frac{p(1-p)}{n}}$$ |
-|Difference between two population means| $$\sqrt{\frac{\sigma_{1}^2}{n_{1}} + \frac{\sigma_{2}^2}{n_{2}}} $$ |
-|Difference between two population proportions| $$\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$$ |
+|$$\mu$$| $$\frac{\sigma}{\sqrt{n}}$$ |
+|$$p$$| $$\sqrt{\frac{p(1-p)}{n}}$$ |
+|$$\mu_1 - \mu_2$$| $$\sqrt{\frac{\sigma_{1}^2}{n_{1}} + \frac{\sigma_{2}^2}{n_{2}}} $$ |
+|$$p_1 - p_2$$| $$\sqrt{\frac{p_{1}(1-p{1})}{n_{1}} + \frac{p_2(1-p_{2})}{n_{2}}}$$ |
 {: .notice--info}
 
 Knowing how to find z-value and compute the standard error, we now can construct a confidence interval for the desired parameter.
