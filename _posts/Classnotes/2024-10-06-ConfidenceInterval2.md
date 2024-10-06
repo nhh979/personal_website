@@ -13,7 +13,7 @@ For small samples, we need the assumption that the sample is randomly selected f
 
 Similar to z-distributions, t-distributions also have the bell curve but with thicker tails. Additionally, the t-distribution depends on a parameter call **degrees of freedom (d.f.)** which determining the thickness of the tails.
 
-[t-dist](https://raw.githubusercontent.com/nhh979/personal_website/refs/heads/master/assets/images/classnote_photos/t-dist.jpeg)
+![t-dist](https://raw.githubusercontent.com/nhh979/personal_website/refs/heads/master/assets/images/classnote_photos/t-dist.jpeg)
 
 
 One important consideration is that this method cannot be used for proportion and difference in proportions for small sample sizes. The reason for this is that these estimators follow discrete binomial distributions which require a significantly large sample size to approximate a normal distribution.
@@ -32,7 +32,7 @@ The standard error for $$\mu$$ can be computed easily using the formula:
 $$\sigma_{\hat{\theta}} = \frac{s}{\sqrt{n}}$$
 and $$d.f. = n-1$$ degrees of freedom for t-statistic
 
-Calculating the standard error for $$\mu_1-\mu_2$$ is a bit more challenging, depending on the whether that the two population variances are assumed to be equal or not.
+Calculating the standard error for $$\mu_1-\mu_2$$ is a bit more challenging, depending on whether the two population variances are assumed to be equal or not.
 - If the two population variances are equal:
 
     $$\sigma_{\hat{\theta}} = s_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}$$  
