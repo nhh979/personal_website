@@ -61,7 +61,7 @@ First off, I create 1000 grade samples using a truncated normal random variable.
 
 Next, I put them all into a dataframe and convert the percent grade to GPA letter grades. After computing the number of male and female students as well as the proportions of A grade for each gender, I use the z-distribution to construct the confidence interval at a given confidence level for the difference between proportions.
 
-```Python
+```python
 # Import neccesary libraries
 import pandas as pd
 import numpy as np
