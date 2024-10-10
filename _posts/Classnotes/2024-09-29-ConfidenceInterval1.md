@@ -144,6 +144,8 @@ print(f"The margin of error: {E:.5f}")
 print(f"{c*100:.0f}% confidence interval for the difference between grade proportions: {ci}")
 ```
 
+The results are shown below.
+
 ```
 The first 5 rows
 :     Gender  Percent_grade GPA
@@ -188,6 +190,8 @@ Z-score for 90% confidence interval: 1.645
 The margin of error: 0.03352
 90% confidence interval for the difference between grade proportions: (-0.02293768268954751, 0.04409701116594918)
 ```
+You can try computing the confidence interval for the different in the average percentage grades between male and female students at a confidence level of your choice, using the same approach.
+
 **Intepret:**   
 We're 90% confident that the difference in true proportions of A grade between male and female students lies in the interval **(-0.023, 0.044)**.
 This interval contains 0, implying that there is no difference between the two proportions.

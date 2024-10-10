@@ -52,7 +52,7 @@ I'll create a data similar to the previous one but with a much smaller sample si
 
 Similar to the previous example, I first compute the mean grade for each gender and count the number of male and female students. I then construct the confidence interval for the difference in mean grade between male and female students, using t-distribution and the provided formulas.
 
-```Python
+```python
 # Import neccesary libraries
 import pandas as pd
 import numpy as np
@@ -153,6 +153,7 @@ The margin of error: 6.0569
 95% confidence interval for the difference in grade between male and female students: 
 (-5.637031107147289, 6.476787613528183)
 ```
+
 **Intepret:**  
 We're 95% confident that the difference in mean grade between male and female students lies in the interval **(-5.637, 6.477)**.
 Since 0 is contained in the interval, we can conclude that there is no difference in mean grade across gender.
