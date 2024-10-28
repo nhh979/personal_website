@@ -26,7 +26,7 @@ $$T=\frac{\theta-\hat{\theta}}{\frac{s}{\sqrt{n}}} \rightarrow \theta = \hat{\th
 
 with $$d.f.$$ degrees of freedom.
 
-Similarly to the z-statistic, we can find the t-statistic using the t-distribution table with a given confidence level and known the degrees of freedom.
+Similarly to the z-statistic, we can find the t-statistic using the t-distribution table with a given confidence level and the degrees of freedom.
 
 The standard error for $$\mu$$ can be computed easily using the formula:
 $$\sigma_{\hat{\theta}} = \frac{s}{\sqrt{n}}$$
@@ -159,4 +159,4 @@ We're 95% confident that the difference in mean grade between male and female st
 Since 0 is contained in the interval, we can conclude that there is no difference in mean grade across gender.
 
 ## Summary
-With small samples, we can construct confidence intervals for population mean and difference between means using t-distributions. Computing confidence intervals for difference between means is a little more challenging, depending on the assumption that the two population variances are equal or not. We also introduced a new term called *pooled estimator* of the standard deviation which combines standard deviations calculated from multiple samples into one overal standard deviation.
+With small samples, we can construct confidence intervals for population mean and difference between means using t-distributions. Computing confidence intervals for difference between means is a little more challenging, depending on the assumption that the two population variances are equal or not. We also introduced a new term called *pooled estimator* of the standard deviation which combines standard deviations calculated from multiple samples into one overall standard deviation.
